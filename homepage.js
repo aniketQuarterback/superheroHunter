@@ -39,7 +39,7 @@ fetchData()
       let div = document.createElement("div");
       div.classList.add("character-card");
       div.setAttribute("id", id);
-      let path = `superheroHunter/info.html#${id}`;
+      let path = `charaterinfo.html#${id}`;
   
       
       div.innerHTML = `
@@ -100,7 +100,7 @@ searchBtn.addEventListener("click", () => {
       let div = document.createElement("div");
       div.classList.add("character-card");
       div.setAttribute("id", id);
-      let path = `superheroHunter/info.html#${id}`;
+      let path = `charaterinfo.html#${id}`;
       div.innerHTML = `
         <img class="poster" src=${thumbnail.path}.jpg alt="">
         <div class="card-body">
